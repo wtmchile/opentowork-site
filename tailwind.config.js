@@ -13,6 +13,11 @@ module.exports = {
         'xxs': '568px',
         '3xs': '400px',
       },
+      textColor: {
+        'primary': '#218AEC',
+        'secondary': '#525554',
+        'danger': '#e3342f',
+      },
       animation: {
         flip: "flip 1s cubic-bezier(0, 0, 0.2, 1) infinite",
       },

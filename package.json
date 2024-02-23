@@ -1,6 +1,6 @@
 {
   "name": "opentowork-site",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@tanstack/react-query": "^5.18.1",
     "clsx": "^2.1.0",
     "framer-motion": "^11.0.3",
@@ -16,6 +19,7 @@
     "react": "^18",
     "react-countdown": "^2.3.5",
     "react-dom": "^18",
+    "react-icons": "^5.0.1",
     "tailwind-merge": "^2.2.1"
   },
   "devDependencies": {
